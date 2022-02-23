@@ -5,7 +5,7 @@ import re
 class app(Tk):
     def __init__(self,converter):
         Tk.__init__(self)
-        self.title = 'Currency Converter'
+        self.title("Currency Converter")
         self.currencyConverter = converter
         self.geometry("500x200")
         self.heading = Label(self, text="Real Real Time Currency Converter", fg="blue", font=("Courier", 15, "bold"), relief=RAISED, borderwidth=3).place(x=10, y=5)
